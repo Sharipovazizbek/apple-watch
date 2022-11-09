@@ -1,0 +1,273 @@
+:root {
+  --border-color: #ddd;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*HEADER*/
+.header__content,
+.nav__content,
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__content {
+  margin: 30px 125px 80px 125px;
+}
+.logo {
+  width: 35px;
+  height: 42px;
+  transition: 0.4s ease;
+}
+.logo:hover {
+  opacity: 0.8;
+}
+.logo:active {
+  opacity: 0.6;
+}
+.nav__content {
+  gap: 40px;
+}
+.nav__list {
+  gap: 30px;
+}
+.nav__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #333333;
+  transition: 0.4s ease;
+}
+.nav__link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+.nav__link:active {
+  opacity: 0.6;
+  text-decoration: underline;
+}
+
+/*MAIN*/
+
+/*INFORMATION WATCH*/
+.information__watch-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 70px 125px;
+  border-bottom: 2px solid var(--border-color);
+}
+.information__watch-item {
+  width: 490px;
+}
+.information__watch-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.information__watch-text-wrapper {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.line {
+  border: 3px solid #888888;
+}
+.information__watch-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777777;
+}
+.information__watch-link {
+  padding: 12px 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  background-color: #ea625c;
+  transition: 0.4s ease;
+  margin-top: 10px;
+  display: inline-block;
+}
+.information__watch-link:hover {
+  opacity: 0.8;
+}
+.information__watch-link:active {
+  opacity: 0.6;
+}
+.information__watch-img {
+  width: 450px;
+}
+
+/*SPORTS WATCH*/
+.sports__watch-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 125px;
+}
+.sports__watch-card {
+  width: 28%;
+}
+.sports__watch-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #222222;
+  margin-bottom: 30px;
+}
+.sports__watch-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #333333;
+  line-height: 1.7;
+}
+.sports__watch-text-line {
+  width: 40px;
+  border: 3px solid #ea625c;
+}
+.sports__watch-text-asied {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ea625c;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+/*WATCH FEATURES*/
+.watch__features-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 125px;
+  gap: 110px;
+}
+.watch__features-item {
+  width: 50%;
+}
+.watch__features-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.watch__features-text-wrapper {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.line {
+  border: 3px solid #888888;
+}
+.watch__features-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #333333;
+  line-height: 1.7;
+}
+.watch__features-link {
+  padding: 12px 90px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  background-color: #ea625c;
+  transition: 0.4s ease;
+  display: inline-block;
+  margin-top: 10px;
+}
+.watch__features-link:hover {
+  opacity: 0.8;
+}
+.watch__features-link:active {
+  opacity: 0.6;
+}
+.watch__features-img {
+  width: 50%;
+  height: 600px;
+  margin-bottom: 70px;
+}
+
+/*HEALTH*/
+.health {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 240px 0;
+  width: 100%;
+  background-image: url("../img/bacground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.health-item {
+  margin-left: 35%;
+  width: 490px;
+}
+.health-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.health-text-wrapper {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.health__line {
+  border: 3px solid #ffffff;
+}
+.health-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.health-link {
+  padding: 12px 46px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  background-color: #ea625c;
+  transition: 0.4s ease;
+}
+.health-link:hover {
+  opacity: 0.8;
+}
+.health-link:active {
+  opacity: 0.6;
+}
